@@ -16,3 +16,7 @@ switch to new branch
 # git checkout -b "branch-name"
 create new branch and checkout 
 # git push
+
+## pull another branch
++ git branch -f remote_branch_name origin/remote_branch_name
++ git checkout remote_branch_name
