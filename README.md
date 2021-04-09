@@ -5,7 +5,7 @@
 + git status
 + git add .
 + git commit -m "message"
-+ git log
++ git log => q to exit
 
 + git pull
 + git branch => show branch's list
@@ -17,3 +17,9 @@
 ## pull another branch
 + git branch -f remote_branch_name origin/remote_branch_name
 + git checkout remote_branch_name
+
+## Resolve conflict
++ Assume: master and my-branch
+1. In my-branch => switch to master and pull new code
+2. Switch to my-branch => git merge master (merge master into my-branch)
+3. Resolve confict => add => commit => push new code
