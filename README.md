@@ -23,3 +23,6 @@
 1. In my-branch => switch to master and pull new code
 2. Switch to my-branch => git merge master (merge master into my-branch)
 3. Resolve confict => add => commit => push new code
+
+## Reset commit
++ git reset --hard HEAD~3 => go back 3 commits
